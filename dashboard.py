@@ -15,7 +15,7 @@ class RMS:
         img=img.resize((100,50),Image.LANCZOS)
         self.logo_dash=ImageTk.PhotoImage(img)
 
-
+       #hello
         #title
         title=Label(self.root,text="STUDENT RESULT MANAGMENT SYSTEM",padx=10,compound=LEFT,image=self.logo_dash,font=("goudy old style",20,"bold"),bg="#033054",fg="white").place(x=0,y=0,relwidth=1,height=50)
         #menu
